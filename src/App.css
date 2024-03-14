@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+
+.Poster {
+
+  height: 400px;
+  width: 100%;
+
+
+}
+
+
+.Poster img {
+  /* height: 100%; */
+  width: 100%;
+
+
+
+
+}
+
+.content {
+  /* top:260px; */
+  position: absolute;
+  bottom: 0;
+  font-size: 50px;
+  margin-left: 50px;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 769px) {
+
+  .content {
+    top: 300px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    font-size: 50px;
+    margin-left: 50px;
+    color: white;
+  }
+  .Poster img {
+    height: 100%;
+    width: 100%;
+  
+  
+  
+  
+  }
+
+  .About {
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+
+  .About img {
+    display: none;
+    height: 0px;
+    margin-top: 0;
+  }
+
+  .about2 {
+    margin-top: 0;
+    margin-right: 0;
+    text-align: justify;
+  }
+
+
+
+}

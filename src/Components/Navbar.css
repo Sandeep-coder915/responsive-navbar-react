@@ -1,0 +1,106 @@
+/* Navbar styling */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:linear-gradient(255,255,255,0.6);
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    position:fixed;
+    /* background-color: ; */
+}
+
+#navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar1 li {
+    padding: 0 20px;
+    margin: 0 10px;
+    list-style: none;
+    color: wheat;
+    position: relative;
+}
+
+#navbar1 li a {
+    text-decoration: none;
+    color: rgb(10, 12, 15);
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar1 li a:hover,
+#navbar1 li a.active {
+    color: rgb(115, 231, 150);
+}
+
+#navbar1 li a:hover::after,
+#navbar1 li a.active::after {
+    content: "";
+    width: 60%;
+    height: 2px;
+    background: rgb(115, 231, 150);
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+}
+
+#resposive {
+    display: none;
+}
+
+#resposive i {
+    color: #fff;
+}
+
+@media screen and (max-width: 769px) {
+    #navbar1 {
+        display: none; /* Hide the navbar on smaller screens by default */
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        right: 0;
+        width: 300px;
+        height: 30vh;
+        top: 84px;
+        
+        backdrop-filter: blur(15px);
+        background:transparent;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    #navbar1.active {
+        display: flex; /* Show the navbar when it has the 'active' class */
+    }
+
+    #navbar1 li {
+        margin-bottom: 25px;
+    }
+
+    #resposive {
+        display: block; /* Show the bars icon on smaller screens */
+    }
+
+    #resposive i {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    #navbar1 a {
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+    }
+    
+    #navbar1 a:hover {
+        color: #ff5e62;
+    }
+}
