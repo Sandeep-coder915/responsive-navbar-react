@@ -2,6 +2,7 @@
 
 nav {
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
     background-color:linear-gradient(255,255,255,0.6);
@@ -9,6 +10,7 @@ nav {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     width: 100%;
     position:fixed;
+    top: o;
     /* background-color: ; */
 }
 
@@ -17,6 +19,8 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+/* li */
 
 #navbar1 li {
     padding: 0 20px;
@@ -33,12 +37,12 @@ nav {
     font-size: 1.5rem;
     transition: 0.3s ease-in-out;
 }
-
+/* link.hover */
 #navbar1 li a:hover,
 #navbar1 li a.active {
     color: rgb(115, 231, 150);
 }
-
+/* linkhober after */
 #navbar1 li a:hover::after,
 #navbar1 li a.active::after {
     content: "";
@@ -58,6 +62,7 @@ nav {
     color: #fff;
 }
 
+/* making the nab=vnbar responsive  */
 @media screen and (max-width: 769px) {
     #navbar1 {
         display: none; /* Hide the navbar on smaller screens by default */
@@ -69,9 +74,9 @@ nav {
         width: 300px;
         height: 30vh;
         top: 84px;
-        
+        /* background: #283; */
         backdrop-filter: blur(15px);
-        background:transparent;
+        
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;

@@ -2,16 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './App.css';
 import App from './App';
+import Navbar from './Components/Navbar';
 import Poster from './Components/Poster';
 import About from './Components/About';
+import OurMenu from './Components/OurMenu';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+import Home from './Components/Home';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Navbar/>
     <Poster />
     <About/>
+    <OurMenu/>
+    <Contact/>
+    <Footer/>
+    <Home/>
+ 
   </React.StrictMode>
 );
 

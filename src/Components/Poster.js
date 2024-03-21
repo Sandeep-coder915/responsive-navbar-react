@@ -8,7 +8,7 @@ function  Poster({ poster }) {
             <div className="content">
                 BUrger
                 </div>
-      <div>
+      <div id="hr1">
         <hr></hr>
       </div>
         </div>

@@ -8,6 +8,8 @@
 body {
   background-color: #282c34;
   min-height: 100vh;
+  /* margin-top: 10px; */
+
 
   font-size: calc(10px + 2vmin);
   color: white;
@@ -24,6 +26,10 @@ body {
 
   height: 400px;
   width: 100%;
+  /* position:absolute; */
+  /* margin-top: 10%; */
+
+  /* margin-top: 100px; */
 
 
 }
@@ -47,6 +53,13 @@ body {
   color: white;
 }
 
+#ht{
+  text-align: center;
+}
+#ht1{
+  color: wheat;
+  padding: 10px 0 10px 10px;
+}
 
 
 @media screen and (max-width: 769px) {
@@ -63,11 +76,8 @@ body {
   .Poster img {
     height: 100%;
     width: 100%;
-  
-  
-  
-  
   }
+    
 
   .About {
     width: 100%;
@@ -94,6 +104,18 @@ body {
     text-align: justify;
   }
 
+  .OurMenu img {
+  display: none;
+}
+
+#ht13{
+    display: none;
+}
+      
+  #hr,#hr1{
+  display: none;
+  }
+  
 
 
 }
