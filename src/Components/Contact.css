@@ -1,1 +1,65 @@
-src/Components/About.css src/Components/About.js src/Components/Contact.css src/Components/Contact.js src/Components/Footer.css src/Components/Footer.js src/Components/Home.js src/Components/Navbar.css src/Components/Navbar.js src/Components/OurMenu.css src/Components/OurMenu.js src/Components/Poster.js
+/* .contact{
+height: 400px;
+} */
+h1{
+    text-align: center;
+}
+
+#rr{
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
+    font-size: 30px;
+
+}
+
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: px 80px 20px 20px; */
+}
+
+/* .Form input{
+     padding: ;
+} */
+
+.c12{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    height: 400px;
+    margin-top: 10px;
+}
+.c12 input{
+    padding: 10px 100px 10px;
+    margin: 10px;
+    width: 90%;
+   margin-left: 20px;
+
+}
+#e{
+    margin-top: 20px;
+}
+.Button button:hover{
+   
+  }
+
+  .Button{
+    display: flex;
+    margin-left: 22px;
+    padding:20px;
+    width:90%;
+    justify-content: space-evenly;
+    background-color: hsl(0 0% 10%);
+    
+  }
+  .Button button{
+
+    
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: aqua;
+  }

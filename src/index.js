@@ -8,7 +8,7 @@ import About from './Components/About';
 import OurMenu from './Components/OurMenu';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-import Home from './Components/Home';
+// import Home from './Components/Home';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,7 +21,7 @@ root.render(
     <OurMenu/>
     <Contact/>
     <Footer/>
-    <Home/>
+    {/* <Home/> */}
  
   </React.StrictMode>
 );

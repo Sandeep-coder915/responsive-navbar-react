@@ -10,10 +10,10 @@ import OurMenu from './Components/OurMenu';
 
 function App() {
   return (
-    
+    <>
   
 
-    <BrowserRouter>
+    {/* <BrowserRouter>
     <Navbar/>
     <Routes>
       <Route index element={<Home/>}/>
@@ -21,7 +21,8 @@ function App() {
       <Route path="/OurMenu" element ={<OurMenu/>}/>
       <Route path="/Contact" element={<Contact/>}/>
     </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
+  </>
   )
  
 }

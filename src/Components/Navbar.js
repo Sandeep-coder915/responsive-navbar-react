@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import "./Navbar.css";
 
+//using a react dom create the the routing using route browserrouter and links
+
 class Navbar extends Component {
     state = { clicked: false };
 
@@ -16,11 +18,11 @@ class Navbar extends Component {
         return (
             <>
                 <nav>
-                    <a><img src="../../images/logo.svg" alt="Logo"></img></a>
+                    <a className='Logi'><img src="../../images/logo.svg" alt="Logo"></img></a>
                     <div >
                         <ul id='navbar1' className={this.state.clicked ? "active" : ""}>
-                            {/* <li><Link to='./' ClassName='active'>Home</Link></li> */}
-                            {/* <li><a href="./" className='active'>Home</a></li> */}
+                            {/* <li ClassName='active'><Link to='./' >Home</Link></li> */}
+                            <li><a href="./" className='active'>Home</a></li>
                             <li><a href="index.html">About</a></li>
                             <li><a href="index.html">Contact</a></li>
                             <li><a href="Contact.js">Blog</a></li>

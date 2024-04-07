@@ -5,6 +5,7 @@
 
 }
 
+
 body {
   background-color: #282c34;
   min-height: 100vh;
@@ -14,6 +15,7 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App {
   font-family: sans-serif;
@@ -82,7 +84,7 @@ body {
   .About {
     width: 100%;
     height: 100%;
-    margin-top: 2%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,6 +118,109 @@ body {
   display: none;
   }
   
+.OurMenu{
+  display: flex;
+  flex-direction: column;
+  
+}
+.Our1 img{
+  display: block;
+}
+ .Our2{
+  margin-top: 20px;
+  margin-left: 30px;
+ }
 
 
+}
+
+
+
+
+/* 
+
+@media screen and (max-width: 792px){
+
+  .Poster {
+    height: 100%;
+    width: 122%;
+  }
+  .content {
+    top: 230px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    font-size: 50px;
+    margin-left: 30px;
+    color: white;
+  }
+
+  .ABOUT1 img { 
+    display: block;
+    
+  }
+ 
+
+} */
+
+
+@media screen and  (max-width: 480px){
+
+  .About{
+    margin-top: 0px;
+    display: flex ;
+    flex-direction: column;
+   
+  }
+  .Poster {
+    height: 100%;
+    width: 130%;
+  }
+  .ABOUT1 img { 
+     height: 100px;
+     width: 10%;
+    
+  }
+  .about2{
+    margin-top: 20px;
+    margin-left: 90px;
+    
+    
+  }
+  .w3-large{
+    font-size: 22px;
+  }
+  .contact{
+    height: px;
+    width: 100%;
+    /* background-color:#f7f7; */
+  
+  margin-left: 30px;}
+  .c12{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+   
+    height: 750px;
+    margin-top: 10px;
+  }
+  .Footer{
+    width: 90%;
+  }
+  .Button{
+    display: flex;
+    padding: 30px 20px 20px 20px;
+    justify-content: space-evenly;
+    
+  }
+  .Button button{
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: aqua;
+  }
+  .Button button:hover{
+    background-color: black;
+    color: wheat;
+  }
 }

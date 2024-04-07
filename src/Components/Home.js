@@ -4,9 +4,7 @@ import Poster from "./Poster";
 import Contact from "./Contact";
 import About from "./About";
 import OurMenu from "./OurMenu";
-
-
-
+ 
 function Home(){
     return (
         <>
