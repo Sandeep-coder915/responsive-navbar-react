@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sandeep-coder915/responsive-navbar-react.git/static/css/main.57a3af8f.css",
+    "main.js": "/Sandeep-coder915/responsive-navbar-react.git/static/js/main.938a736c.js",
+    "index.html": "/Sandeep-coder915/responsive-navbar-react.git/index.html",
+    "main.57a3af8f.css.map": "/Sandeep-coder915/responsive-navbar-react.git/static/css/main.57a3af8f.css.map",
+    "main.938a736c.js.map": "/Sandeep-coder915/responsive-navbar-react.git/static/js/main.938a736c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57a3af8f.css",
+    "static/js/main.938a736c.js"
+  ]
+}
