@@ -18,7 +18,7 @@ class Navbar extends Component {
         return (
             <>
                 <nav>
-                    <a className='Logi'><img src="../../images/logo.svg" alt="Logo"></img></a>
+                    <a className='Logi'><img src='../'></img></a>
                     <div >
                         <ul id='navbar1' className={this.state.clicked ? "active" : ""}>
                             {/* <li ClassName='active'><Link to='./' >Home</Link></li> */}
